@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wenzhao.helpinghand.ble.pro.HelpingHand.ResultActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Replay"
+        android:id="@+id/btn_replay"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="42dp"
+        android:textColor="#f75681"
+        android:textSize="16dp"
+        android:layout_above="@+id/show"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Change Activity"
+        android:id="@+id/btn_exit"
+        android:background="@drawable/shape"
+        android:textColor="#f75681"
+        android:textSize="16dp"
+        android:layout_alignTop="@+id/btn_replay"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView2"
+
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:id="@+id/textView17"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:rating="0"
+        android:stepSize="0.5" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Show Data"
+        android:id="@+id/show"
+        android:background="@drawable/shape"
+        android:textColor="#f75681"
+        android:textSize="16dp"
+        android:layout_marginBottom="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Unlock Sticker"
+        android:id="@+id/sticker_btn"
+        android:background="@drawable/shape"
+        android:textColor="#f75681"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/show"
+        android:layout_alignStart="@+id/btn_exit" />
+
+</RelativeLayout>

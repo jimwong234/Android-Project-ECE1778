@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wenzhao.helpinghand.ble.pro.HelpingHand.StickerActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block tower"
+        android:textSize="28dp"
+        android:textColor="#f75681"
+        android:id="@+id/textView21"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView4"
+        android:layout_above="@+id/imageView8"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView22"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView6"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView7"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView8"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block tower"
+        android:textSize="23dp"
+        android:textColor="#000000"
+        android:id="@+id/textView22"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:textColor="#f75681"
+        android:id="@+id/btn_sback"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="30dp"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
